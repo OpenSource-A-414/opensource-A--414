@@ -1,0 +1,13 @@
+# All the required dependencies should come with tf-nightly package.
+# The rest of the packages are mostly used for testing purpose.
+pandas
+pydot
+scipy ~= 1.7.2
+tf-nightly
+portpicker
+pyyaml
+Pillow
+numpy ~= 1.21.4  # Sync with the numpy version used in TF
+black==22.3.0
+isort==5.10.1
+flake8==4.0.1
